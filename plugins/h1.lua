@@ -11,7 +11,7 @@ do
 
 local function run(msg, matches)
 local reply_id = msg['id']
-if is_momod(msg) and matches[1]== 'م1' then
+if is_momod(msg) and matches[1]== 'A1' then
 local S = [[
 🕸اوامہر الرئيسيھہ
 ↭↭↭↭↭↭↭↭↭↭↭↭
@@ -30,7 +30,7 @@ local S = [[
 🕸كتم↫لكتمہ العضو بالرد
 🕸كتم↫لرفعہ الكتمہ عنہ العضو بالرد
 ↭↭↭↭↭↭↭↭↭↭↭↭
-♛D E V ➻ @llOAl]
+♛D E V ➻ @llOAl
 ]]
 reply_msg(reply_id, S, ok_cb, false) 
 end
@@ -45,7 +45,7 @@ return {
 description = "Help list", 
 usage = "Help list",
 patterns = {
-"^(م1)$",
+"^(A1)$",
 },
 run = run 
 }
