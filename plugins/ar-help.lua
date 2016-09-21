@@ -24,7 +24,7 @@ return {
 description = "Help list", 
 usage = "Help list", 
 patterns = { 
-"^(الاوامر)$", 
+"^(اشمر عيني)$", 
 }, 
 run = run 
 } 
